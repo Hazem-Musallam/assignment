@@ -20,12 +20,6 @@ public class AssignmentStreams {
             new Student("Hazem", 45, MALE, true, asList(Course.JAVA, Course.MATH, Course.ENGLISH, Course.CHEMISTRY))
     };
 
-    public static List<Student> getMaleStudent() {
-        //add your implementation here
-        //use stream to achieve the result
-        return null;
-    }
-
     public static List<Student> getActiveStudent() {
         //add your implementation here
         //use stream to achieve the result
@@ -38,15 +32,23 @@ public class AssignmentStreams {
         return null;
     }
 
+    public static Map<Boolean, List<String>> activeAndInactiveGroup() {
+        //add your implementation here
+        //use stream to achieve the result
+        return null;
+    }
+
+
     public static Map<Gender, Map<Boolean, List<Student>>> groupStudentByGenderAndStatus() {
         //add your implementation here
         //use stream to achieve the result
         return null;
     }
 
-    public static Map<Boolean, List<String>> activeAndInactiveGroup() {
+    public static Map<Course, Map<Gender, Long>> groupOfCourseByGender() {
         //add your implementation here
         //use stream to achieve the result
+        // use can use tuple if needed.
         return null;
     }
 
