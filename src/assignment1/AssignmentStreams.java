@@ -51,21 +51,6 @@ public class AssignmentStreams {
     }
 
 
-    /**
-     * return the student who achieve  Math grade is the closet to the targetGrade value,
-     * Student's Math grade should be grater or equal to the targetGrade value
-     *
-     * @param targetGrade
-     * @return
-     */
-    public static Optional<Student> getStudentWithMathGradeCloseToThePassedGrade(int targetGrade) {
-        //add your implementation here
-
-        return null;
-
-    }
-
-
     public static void main(String[] args) {
 
     }
